@@ -1,0 +1,20 @@
+const I18N={
+en:{app:"ResQNet",login:"Log in",register:"Register",email:"Email",password:"Password",name:"Full name",role:"Role",logout:"Log out",
+home:"SOS",mine:"My requests",hazards:"Hazards",map:"Map",alerts:"Alerts",notifs:"Notifications",settings:"Settings",dash:"Control room",incidents:"Incidents",teams:"Rescue teams",satellite:"Satellite (simulation)",assign:"Assignments",
+sos:"SOS",sosTitle:"Emergency SOS",type:"Emergency type",desc:"Describe the emergency",people:"People affected",send:"Send SOS",gps:"Use my GPS location",manual:"Or type your location",consent:"I consent to share my location with emergency responders",
+voice:"Speak",speak:"Read aloud",lang:"Language",online:"Online",offline:"Offline – reports are saved on this device and are NOT YET delivered",
+saved:"Saved on device – NOT YET delivered",delivered:"Delivered – receipt confirmed",privacy:"Privacy notice",
+instr:"Emergency instructions",instrText:"Stay calm. Move to higher ground if flooding. Avoid walking or driving through flood water. Keep your phone charged. Follow official instructions from authorities."},
+kn:{app:"ರೆಸ್‌ಕ್ಯೂನೆಟ್",login:"ಲಾಗಿನ್",register:"ನೋಂದಣಿ",email:"ಇಮೇಲ್",password:"ಪಾಸ್‌ವರ್ಡ್",name:"ಪೂರ್ಣ ಹೆಸರು",role:"ಪಾತ್ರ",logout:"ಲಾಗ್ ಔಟ್",
+home:"ಎಸ್‌ಒಎಸ್",mine:"ನನ್ನ ಕೋರಿಕೆಗಳು",hazards:"ಅಪಾಯಗಳು",map:"ನಕ್ಷೆ",alerts:"ಎಚ್ಚರಿಕೆಗಳು",notifs:"ಅಧಿಸೂಚನೆಗಳು",settings:"ಸೆಟ್ಟಿಂಗ್‌ಗಳು",dash:"ನಿಯಂತ್ರಣ ಕೊಠಡಿ",incidents:"ಘಟನೆಗಳು",teams:"ರಕ್ಷಣಾ ತಂಡಗಳು",satellite:"ಉಪಗ್ರಹ (ಅನುಕರಣೆ)",assign:"ನಿಯೋಜನೆಗಳು",
+sos:"ಎಸ್‌ಒಎಸ್",sosTitle:"ತುರ್ತು ಎಸ್‌ಒಎಸ್",type:"ತುರ್ತು ಪ್ರಕಾರ",desc:"ತುರ್ತು ಪರಿಸ್ಥಿತಿಯನ್ನು ವಿವರಿಸಿ",people:"ಪೀಡಿತ ಜನರು",send:"ಎಸ್‌ಒಎಸ್ ಕಳುಹಿಸಿ",gps:"ನನ್ನ ಜಿಪಿಎಸ್ ಬಳಸಿ",manual:"ಅಥವಾ ಸ್ಥಳವನ್ನು ಟೈಪ್ ಮಾಡಿ",consent:"ರಕ್ಷಣಾ ಸಿಬ್ಬಂದಿಯೊಂದಿಗೆ ನನ್ನ ಸ್ಥಳ ಹಂಚಿಕೊಳ್ಳಲು ಒಪ್ಪಿಗೆ",
+voice:"ಮಾತನಾಡಿ",speak:"ಓದಿ ಹೇಳಿ",lang:"ಭಾಷೆ",online:"ಆನ್‌ಲೈನ್",offline:"ಆಫ್‌ಲೈನ್ – ವರದಿಗಳು ಈ ಸಾಧನದಲ್ಲಿ ಉಳಿಸಲಾಗಿದೆ, ಇನ್ನೂ ತಲುಪಿಲ್ಲ",
+saved:"ಸಾಧನದಲ್ಲಿ ಉಳಿಸಲಾಗಿದೆ – ಇನ್ನೂ ತಲುಪಿಲ್ಲ",delivered:"ತಲುಪಿದೆ – ಸ್ವೀಕೃತಿ ದೃಢಪಟ್ಟಿದೆ",privacy:"ಗೌಪ್ಯತಾ ಸೂಚನೆ",
+instr:"ತುರ್ತು ಸೂಚನೆಗಳು",instrText:"ಶಾಂತವಾಗಿರಿ. ಪ್ರವಾಹವಿದ್ದರೆ ಎತ್ತರದ ಸ್ಥಳಕ್ಕೆ ಹೋಗಿ. ಪ್ರವಾಹದ ನೀರಿನಲ್ಲಿ ನಡೆಯಬೇಡಿ ಅಥವಾ ವಾಹನ ಚಲಾಯಿಸಬೇಡಿ. ಫೋನ್ ಚಾರ್ಜ್ ಆಗಿಡಿ. ಅಧಿಕಾರಿಗಳ ಸೂಚನೆ ಪಾಲಿಸಿ."},
+hi:{app:"रेस्क्यूनेट",login:"लॉग इन",register:"पंजीकरण",email:"ईमेल",password:"पासवर्ड",name:"पूरा नाम",role:"भूमिका",logout:"लॉग आउट",
+home:"एसओएस",mine:"मेरे अनुरोध",hazards:"खतरे",map:"नक्शा",alerts:"चेतावनियाँ",notifs:"सूचनाएँ",settings:"सेटिंग्स",dash:"कंट्रोल रूम",incidents:"घटनाएँ",teams:"बचाव दल",satellite:"उपग्रह (सिमुलेशन)",assign:"असाइनमेंट",
+sos:"एसओएस",sosTitle:"आपातकालीन एसओएस",type:"आपदा का प्रकार",desc:"आपातकाल का विवरण दें",people:"प्रभावित लोग",send:"एसओएस भेजें",gps:"मेरा जीपीएस उपयोग करें",manual:"या अपना स्थान लिखें",consent:"मैं बचाव कर्मियों के साथ अपना स्थान साझा करने की सहमति देता/देती हूँ",
+voice:"बोलें",speak:"पढ़कर सुनाएँ",lang:"भाषा",online:"ऑनलाइन",offline:"ऑफ़लाइन – रिपोर्ट इस डिवाइस पर सहेजी गई हैं, अभी पहुँची नहीं",
+saved:"डिवाइस पर सहेजा – अभी पहुँचा नहीं",delivered:"पहुँच गया – प्राप्ति की पुष्टि हुई",privacy:"गोपनीयता सूचना",
+instr:"आपातकालीन निर्देश",instrText:"शांत रहें। बाढ़ हो तो ऊँची जगह जाएँ। बाढ़ के पानी में न चलें और न गाड़ी चलाएँ। फ़ोन चार्ज रखें। अधिकारियों के निर्देशों का पालन करें."}};
+const LANGCODE={en:"en-IN",kn:"kn-IN",hi:"hi-IN"};
